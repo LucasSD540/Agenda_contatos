@@ -19,7 +19,6 @@ function adicionaLinha() {
     linha += `<td>${inputNomeContato.value}</td>`
     linha += `<td>${inputNumeroContato.value}</td>`
 
-
     linhas += linha;
 
     inputNomeContato.value = '';
@@ -29,5 +28,4 @@ function adicionaLinha() {
 function atualizaTabela() {
     const corpoTabela = document.querySelector('tbody');
     corpoTabela.innerHTML = linhas;
-
 }
